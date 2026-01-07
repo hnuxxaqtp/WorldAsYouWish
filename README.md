@@ -151,6 +151,7 @@ pip install -r requirements.txt
 ### 前端依赖（Node.js）
 
 ```bash
+解压frontend.zip至根目录
 cd frontend
 npm install
 ```
@@ -849,3 +850,4 @@ chore: 构建过程或辅助工具的变动
 python narrative_agent.py
 ```
 >>>>>>> 62899eb (Initial commit)
+
