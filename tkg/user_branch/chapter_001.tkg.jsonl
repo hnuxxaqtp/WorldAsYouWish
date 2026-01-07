@@ -1,0 +1,13 @@
+{"tau":"ch1_e1","h":"昴","r":"其他:穿越","t":"异世界","meta":{"location":"未知","polarity":0.0,"evidence":"……穿越？好吧，先确认能走能跑"}}
+{"tau":"ch1_e2","h":"水果摊老板","r":"其他:提供","t":"水果","meta":{"location":"街角","polarity":0.5,"evidence":"小哥脸色发白，要不要来个果子垫肚子"}}
+{"tau":"ch1_e3","h":"混混","r":"压制","t":"昴","meta":{"location":"巷子","polarity":-0.8,"evidence":"新面孔，把值钱的都交出来"}}
+{"tau":"ch1_e4","h":"金发少女","r":"轻视","t":"昴","meta":{"location":"巷口","polarity":-0.5,"evidence":"自己解决"}}
+{"tau":"ch1_e5","h":"银发少女","r":"保护","t":"昴","meta":{"location":"巷子","polarity":0.7,"evidence":"银色的寒光划开夜色，混混的手腕一麻"}}
+{"tau":"ch1_e6","h":"昴","r":"恩情","t":"银发少女","meta":{"location":"巷子","polarity":0.6,"evidence":"谢了。欠你一命不容易还"}}
+{"tau":"ch1_e7","h":"银发少女","r":"其他:寻找","t":"徽章","meta":{"location":"未知","polarity":0.0,"evidence":"我在找一枚徽章，很重要"}}
+{"tau":"ch1_e8","h":"昴","r":"合作","t":"银发少女","meta":{"location":"贫民窟","polarity":0.5,"evidence":"两人沿着零碎情报梳理行迹"}}
+{"tau":"ch1_e9","h":"居民甲","r":"其他:警告","t":"银发少女","meta":{"location":"贫民窟","polarity":-0.3,"evidence":"大嫂子，漂亮衣裳招眼，少往里走"}}
+{"tau":"ch1_e10","h":"猎肠者","r":"敌对","t":"昴","meta":{"location":"巷子","polarity":-0.9,"evidence":"猎肠者的刀锋已经逼近"}}
+{"tau":"ch1_e11","h":"银发少女","r":"合作","t":"昴","meta":{"location":"巷子","polarity":0.7,"evidence":"集中注意力，昴！我们必须合作才能脱身"}}
+{"tau":"ch1_e12","h":"昴","r":"其他:寻找","t":"莱因哈特","meta":{"location":"城市","polarity":0.0,"evidence":"我去找莱因哈特"}}
+{"tau":"ch1_e13","h":"莱因哈特","r":"保护","t":"昴","meta":{"location":"钟楼","polarity":0.8,"evidence":"放心，我会保护好你们"}}

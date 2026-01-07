@@ -1,0 +1,163 @@
+{
+  "metadata": {
+    "novel_name": "auto_story_2026-01-04T06-47-48-584Z",
+    "created_at": "2026-01-05T15:33:27.201593",
+    "total_length": 4935,
+    "total_paragraphs": 41
+  },
+  "characters": {
+    "刘敏": {
+      "name": "刘敏",
+      "first_mention": 80,
+      "description": "一名勇敢且肩负重任的年轻将军，深入炼金工坊调查秘密，保护国家的安全。",
+      "traits": [
+        "勇敢",
+        "机智",
+        "责任感"
+      ],
+      "role": "主角",
+      "mentions": 65
+    },
+    "马宇": {
+      "name": "马宇",
+      "first_mention": 564,
+      "description": "刘敏的同伴，与刘敏一同调查炼金工坊的秘密，谨慎且细心。",
+      "traits": [
+        "谨慎",
+        "细心",
+        "忠诚"
+      ],
+      "role": "配角",
+      "mentions": 26
+    },
+    "老人": {
+      "name": "老人",
+      "first_mention": 100,
+      "description": "炼金工坊的守护者，与女子讨论炼金工坊的秘密，态度坚决。",
+      "traits": [
+        "坚决",
+        "神秘"
+      ],
+      "role": "配角",
+      "mentions": 3
+    },
+    "女子": {
+      "name": "女子",
+      "first_mention": 103,
+      "description": "炼金工坊的秘密持有者，坚定地维护自己的立场，与老人的对话中透露出家族和国家的未来。",
+      "traits": [
+        "坚定",
+        "神秘"
+      ],
+      "role": "配角",
+      "mentions": 5
+    },
+    "守卫": {
+      "name": "守卫",
+      "first_mention": 381,
+      "description": "负责守护炼金工坊的守卫，多次提醒刘敏注意危险，表现出警惕性。",
+      "traits": [
+        "警惕",
+        "忠诚"
+      ],
+      "role": "配角",
+      "mentions": 12
+    }
+  },
+  "locations": {
+    "王都": {
+      "name": "王都",
+      "first_mention": 68,
+      "description": "故事发生的主城，夜晚几乎无人迹，街道上寂静无声。",
+      "type": "城市",
+      "mentions": 7
+    },
+    "炼金工坊": {
+      "name": "炼金工坊",
+      "first_mention": 91,
+      "description": "位于王都的废弃角落，内部装有神秘物品的箱子，散发出淡淡的光芒。",
+      "type": "建筑",
+      "mentions": 20
+    },
+    "将军府": {
+      "name": "将军府",
+      "first_mention": 1012,
+      "description": "刘敏返回的地方，用于存放从炼金工坊带回的发现。",
+      "type": "建筑",
+      "mentions": 4
+    },
+    "废弃的炼金工坊": {
+      "name": "废弃的炼金工坊",
+      "first_mention": 1083,
+      "description": "位于王都的一处废弃角落，内部藏有重要的秘密和能量源。",
+      "type": "建筑",
+      "mentions": 1
+    }
+  },
+  "events": [
+    {
+      "type": "发现",
+      "description": "突然，马宇发现其中有一个箱子底部有一些微小的机关，轻轻一按，箱子内部自动打开了一个小隔间，里面藏着一本古老的书籍",
+      "characters": [
+        "马宇"
+      ],
+      "locations": [],
+      "position": 854
+    },
+    {
+      "type": "发现",
+      "description": "刘敏心知肚明，他们可能发现了异常",
+      "characters": [
+        "刘敏"
+      ],
+      "locations": [],
+      "position": 2366
+    },
+    {
+      "type": "发现",
+      "description": "“我们得将这些发现带回将军府，由专家们解读",
+      "characters": [],
+      "locations": [
+        "将军府"
+      ],
+      "position": 2576
+    },
+    {
+      "type": "发现",
+      "description": "”刘敏沉着冷静地说道，心中却充满了对这次发现的激动",
+      "characters": [
+        "刘敏"
+      ],
+      "locations": [],
+      "position": 2597
+    },
+    {
+      "type": "发现",
+      "description": "突然，刘敏感到脚下似乎有异样，他低头一看，发现地上有些微小的机关",
+      "characters": [
+        "刘敏"
+      ],
+      "locations": [],
+      "position": 3782
+    },
+    {
+      "type": "找到",
+      "description": "他意识到，自己已经卷入了一个巨大的阴谋之中，而他必须找到答案，保护王都的安全",
+      "characters": [],
+      "locations": [
+        "王都"
+      ],
+      "position": 2298
+    },
+    {
+      "type": "找到",
+      "description": "刘敏不断翻阅那些书籍，试图从中找到任何有价值的线索",
+      "characters": [
+        "刘敏"
+      ],
+      "locations": [],
+      "position": 3974
+    }
+  ],
+  "scenes": []
+}

@@ -1,0 +1,165 @@
+{
+  "刘敏": {
+    "attributes": {
+      "combat_power": "未知",
+      "inventory": [],
+      "traits": [
+        "勇敢",
+        "机智",
+        "责任感"
+      ]
+    },
+    "location": "未知",
+    "status": "正常",
+    "goals": [
+      "探索王都",
+      "探索炼金工坊"
+    ],
+    "inventory": [],
+    "relations": []
+  },
+  "老人": {
+    "attributes": {
+      "combat_power": "未知",
+      "inventory": [],
+      "traits": [
+        "坚决",
+        "神秘"
+      ]
+    },
+    "location": "未知",
+    "status": "正常",
+    "goals": [
+      "探索王都",
+      "探索炼金工坊"
+    ],
+    "inventory": [],
+    "relations": []
+  },
+  "女子": {
+    "attributes": {
+      "combat_power": "未知",
+      "inventory": [],
+      "traits": [
+        "坚定",
+        "谨慎"
+      ]
+    },
+    "location": "未知",
+    "status": "正常",
+    "goals": [
+      "探索王都",
+      "探索炼金工坊"
+    ],
+    "inventory": [],
+    "relations": []
+  },
+  "马宇": {
+    "attributes": {
+      "combat_power": "未知",
+      "inventory": [],
+      "traits": [
+        "细心",
+        "谨慎"
+      ]
+    },
+    "location": "未知",
+    "status": "正常",
+    "goals": [
+      "探索王都",
+      "探索炼金工坊"
+    ],
+    "inventory": [],
+    "relations": []
+  },
+  "守卫": {
+    "attributes": {
+      "combat_power": "未知",
+      "inventory": [],
+      "traits": [
+        "警惕",
+        "忠诚"
+      ]
+    },
+    "location": "未知",
+    "status": "正常",
+    "goals": [
+      "探索王都",
+      "探索炼金工坊"
+    ],
+    "inventory": [],
+    "relations": []
+  },
+  "黄桂英": {
+    "attributes": {
+      "combat_power": "未知",
+      "inventory": [],
+      "traits": [
+        "善良",
+        "天真"
+      ]
+    },
+    "location": "乡村",
+    "status": "正常",
+    "goals": [
+      "学习新的耕种技术",
+      "今年能有个好收成"
+    ],
+    "inventory": [],
+    "relations": []
+  },
+  "高鑫": {
+    "attributes": {
+      "combat_power": "未知",
+      "inventory": [],
+      "traits": [
+        "谦逊",
+        "胆小"
+      ]
+    },
+    "location": "乡村",
+    "status": "正常",
+    "goals": [
+      "希望能升职加薪",
+      "抓捕所有违法犯罪的人"
+    ],
+    "inventory": [],
+    "relations": []
+  },
+  "刘勇": {
+    "attributes": {
+      "combat_power": "中",
+      "inventory": [],
+      "traits": [
+        "开朗",
+        "勤奋"
+      ]
+    },
+    "location": "炼金工坊",
+    "status": "正常",
+    "goals": [
+      "改善自己的处境",
+      "完成主人的吩咐"
+    ],
+    "inventory": [],
+    "relations": []
+  },
+  "高磊": {
+    "attributes": {
+      "combat_power": "中",
+      "inventory": [],
+      "traits": [
+        "开朗",
+        "懒惰"
+      ]
+    },
+    "location": "废弃的炼金工坊",
+    "status": "正常",
+    "goals": [
+      "维护地方的和平与安全",
+      "希望能升职加薪"
+    ],
+    "inventory": [],
+    "relations": []
+  }
+}

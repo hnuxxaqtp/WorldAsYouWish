@@ -1,0 +1,23 @@
+# Core Dependencies
+fastapi>=0.104.0
+uvicorn[standard]>=0.24.0
+openai>=1.0.0
+pydantic>=2.0.0
+python-multipart>=0.0.6
+
+# AI/ML Dependencies - Python 3.10 compatible
+# Sentence-transformers - updated to 3.0.1+ for model compatibility
+# The model paraphrase-multilingual-MiniLM-L12-v2 requires version 3.0+
+sentence-transformers>=3.0.0,<4.0.0
+
+# PyTorch and torchvision - matching versions for Python 3.10
+torch>=2.0.0,<2.5.0
+torchvision>=0.15.0,<0.20.0
+
+# Transformers (compatible with above versions)
+transformers>=4.40.0,<5.0.0
+
+# Supporting dependencies
+numpy>=1.24.0,<2.0.0
+scipy>=1.9.0
+scikit-learn>=1.0.0

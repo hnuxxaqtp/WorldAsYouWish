@@ -1,0 +1,21 @@
+{
+  "worldline_id": "canon",
+  "num_chapters": 1,
+  "roles": [
+    "昴",
+    "混混",
+    "猎肠者",
+    "银发少女"
+  ],
+  "relation_types": [
+    "同伴",
+    "对立"
+  ],
+  "chapters": [
+    {
+      "chapter_id": 1,
+      "title": "完整章节",
+      "file": "world_graph/canon/chapter_001.json"
+    }
+  ]
+}

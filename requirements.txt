@@ -1,0 +1,7 @@
+# Core Dependencies - Backend
+openai>=1.0.0
+pydantic>=2.0.0
+
+# Note: FastAPI and other backend dependencies are in backend/requirements.txt
+# To install backend dependencies, run:
+#   cd backend && pip install -r requirements.txt

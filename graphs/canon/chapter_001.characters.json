@@ -1,0 +1,42 @@
+{
+  "chapter_id": 1,
+  "characters": {
+    "昴": {
+      "combat_power": "弱",
+      "inventory": [
+        "木箱"
+      ],
+      "traits": [
+        "勇敢",
+        "灵活"
+      ]
+    },
+    "银发少女": {
+      "combat_power": "中",
+      "inventory": [
+        "刀"
+      ],
+      "traits": [
+        "勇敢",
+        "谨慎"
+      ]
+    },
+    "金发少女": {
+      "combat_power": "弱",
+      "inventory": [],
+      "traits": [
+        "冷漠"
+      ]
+    },
+    "猎肠者": {
+      "combat_power": "强",
+      "inventory": [
+        "刀"
+      ],
+      "traits": [
+        "冷静",
+        "邪恶"
+      ]
+    }
+  }
+}

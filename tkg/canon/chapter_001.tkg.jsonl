@@ -1,0 +1,10 @@
+{"tau":"ch1_e1","h":"昴","r":"其他:穿越","t":"异世界","meta":{"location":"未知","polarity":0.0,"evidence":"……穿越？好吧，先确认能走能跑"}}
+{"tau":"ch1_e2","h":"水果摊老板","r":"其他:关心","t":"昴","meta":{"location":"街角","polarity":0.5,"evidence":"小哥脸色发白，要不要来个果子垫肚子"}}
+{"tau":"ch1_e3","h":"混混","r":"压制","t":"昴","meta":{"location":"巷子","polarity":-0.8,"evidence":"新面孔，把值钱的都交出来"}}
+{"tau":"ch1_e4","h":"银发少女","r":"保护","t":"昴","meta":{"location":"巷子","polarity":0.7,"evidence":"银色的寒光划开夜色，混混的手腕一麻"}}
+{"tau":"ch1_e5","h":"昴","r":"恩情","t":"银发少女","meta":{"location":"巷子","polarity":0.6,"evidence":"谢了。欠你一命不容易还"}}
+{"tau":"ch1_e6","h":"银发少女","r":"其他:寻找","t":"徽章","meta":{"location":"未知","polarity":0.0,"evidence":"我在找一枚徽章，很重要"}}
+{"tau":"ch1_e7","h":"昴","r":"合作","t":"银发少女","meta":{"location":"城市背面","polarity":0.5,"evidence":"交给我。我来把它找回来"}}
+{"tau":"ch1_e8","h":"居民","r":"其他:警告","t":"银发少女","meta":{"location":"贫民窟","polarity":-0.3,"evidence":"大嫂子，漂亮衣裳招眼，少往里走"}}
+{"tau":"ch1_e9","h":"猎肠者","r":"敌对","t":"昴","meta":{"location":"窄巷","polarity":-0.9,"evidence":"找到你们了"}}
+{"tau":"ch1_e10","h":"猎肠者","r":"敌对","t":"银发少女","meta":{"location":"窄巷","polarity":-0.9,"evidence":"她的笑意像刀背的冷"}}

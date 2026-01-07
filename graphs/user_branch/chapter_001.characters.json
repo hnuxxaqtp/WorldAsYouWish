@@ -1,0 +1,45 @@
+{
+  "chapter_id": 1,
+  "characters": {
+    "昴": {
+      "combat_power": "中",
+      "inventory": [],
+      "traits": [
+        "勇敢",
+        "灵活"
+      ]
+    },
+    "金发少女": {
+      "combat_power": "未知",
+      "inventory": [
+        "徽章"
+      ],
+      "traits": [
+        "冷漠"
+      ]
+    },
+    "银发少女": {
+      "combat_power": "强",
+      "inventory": [],
+      "traits": [
+        "勇敢",
+        "灵活"
+      ]
+    },
+    "莱因哈特": {
+      "combat_power": "强",
+      "inventory": [],
+      "traits": [
+        "守信",
+        "勇敢"
+      ]
+    },
+    "猎肠者": {
+      "combat_power": "强",
+      "inventory": [],
+      "traits": [
+        "邪恶"
+      ]
+    }
+  }
+}

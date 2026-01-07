@@ -1,0 +1,164 @@
+{
+  "chapter_id": 1,
+  "title": "第1章",
+  "events": [
+    {
+      "who": "昴",
+      "action": "确认",
+      "target": "能走能跑",
+      "goal": "活下去",
+      "polarity": 1,
+      "time": null,
+      "location": null,
+      "precond": null,
+      "effect": null
+    },
+    {
+      "who": "混混",
+      "action": "要求",
+      "target": "昴",
+      "goal": "交出值钱的东西",
+      "polarity": -1,
+      "time": null,
+      "location": "巷子",
+      "precond": null,
+      "effect": null
+    },
+    {
+      "who": "金发少女",
+      "action": "拒绝",
+      "target": "昴",
+      "goal": "不帮助",
+      "polarity": -1,
+      "time": null,
+      "location": "巷子",
+      "precond": null,
+      "effect": null
+    },
+    {
+      "who": "银发少女",
+      "action": "救",
+      "target": "昴",
+      "goal": "驱散混混",
+      "polarity": 1,
+      "time": null,
+      "location": "巷子",
+      "precond": null,
+      "effect": "混混散去"
+    },
+    {
+      "who": "昴",
+      "action": "承诺",
+      "target": "银发少女",
+      "goal": "找回徽章",
+      "polarity": 1,
+      "time": null,
+      "location": null,
+      "precond": null,
+      "effect": null
+    },
+    {
+      "who": "昴",
+      "action": "询问",
+      "target": "居民",
+      "goal": "寻找徽章线索",
+      "polarity": 1,
+      "time": null,
+      "location": "贫民窟",
+      "precond": null,
+      "effect": null
+    },
+    {
+      "who": "猎肠者",
+      "action": "攻击",
+      "target": "昴和银发少女",
+      "goal": "阻止他们",
+      "polarity": -1,
+      "time": null,
+      "location": "巷子",
+      "precond": null,
+      "effect": null
+    },
+    {
+      "who": "昴",
+      "action": "寻找",
+      "target": "莱因哈特",
+      "goal": "寻求帮助",
+      "polarity": 1,
+      "time": null,
+      "location": "城市的另一端",
+      "precond": null,
+      "effect": null
+    },
+    {
+      "who": "莱因哈特",
+      "action": "同意",
+      "target": "昴和银发少女",
+      "goal": "帮助他们",
+      "polarity": 1,
+      "time": null,
+      "location": "钟楼",
+      "precond": null,
+      "effect": null
+    }
+  ],
+  "relations": [
+    {
+      "a": "昴",
+      "b": "银发少女",
+      "type": "同伴",
+      "score": 0.8
+    },
+    {
+      "a": "昴",
+      "b": "金发少女",
+      "type": "陌生",
+      "score": 0.3
+    },
+    {
+      "a": "昴",
+      "b": "莱因哈特",
+      "type": "盟友",
+      "score": 0.7
+    },
+    {
+      "a": "银发少女",
+      "b": "莱因哈特",
+      "type": "盟友",
+      "score": 0.7
+    },
+    {
+      "a": "昴",
+      "b": "混混",
+      "type": "对立",
+      "score": 0.6
+    },
+    {
+      "a": "银发少女",
+      "b": "猎肠者",
+      "type": "对立",
+      "score": 0.9
+    }
+  ],
+  "goals": {
+    "昴": [
+      "活下去",
+      "找回徽章",
+      "寻求莱因哈特的帮助"
+    ],
+    "银发少女": [
+      "找回徽章"
+    ],
+    "莱因哈特": [
+      "保护昴和银发少女"
+    ]
+  },
+  "objects": {
+    "徽章": "重要，正在寻找",
+    "猎肠者": "敌对，追逐中"
+  },
+  "meta": {
+    "worldline_id": "canon",
+    "model": "gpt-4o"
+  }
+}

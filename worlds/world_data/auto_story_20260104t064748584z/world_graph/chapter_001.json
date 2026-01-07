@@ -1,0 +1,1091 @@
+{
+  "time": 6,
+  "locations": {
+    "王都": {
+      "name": "王都",
+      "description": "故事发生的主城，夜晚几乎无人迹，街道上寂静无声。",
+      "type": "城市"
+    },
+    "炼金工坊": {
+      "name": "炼金工坊",
+      "description": "位于王都的废弃角落，内部装有神秘物品的箱子，散发出淡淡的光芒。",
+      "type": "建筑"
+    },
+    "将军府": {
+      "name": "将军府",
+      "description": "刘敏返回的地方，用于存放从炼金工坊带回的发现。",
+      "type": "建筑"
+    },
+    "废弃的炼金工坊": {
+      "name": "废弃的炼金工坊",
+      "description": "位于王都的一处废弃角落，内部藏有重要的秘密和能量源。",
+      "type": "建筑"
+    }
+  },
+  "recent_events": [
+    {
+      "time": 1,
+      "type": "world_advance",
+      "title": "夜晚的神秘访客",
+      "description": "深夜，当所有人都沉睡时，一名身穿黑衣、头戴兜帽的神秘访客悄悄接近废弃的炼金工坊。访客手中握着一盏昏暗的灯笼，照亮了前方的路。炼金工坊散发着微弱的光芒，里面装有神秘物品的箱子似乎感受到了访客的存在，光芒更加明亮了。访客在门口停下了脚步，犹豫了一下，然后推开了大门，进入工坊内部。",
+      "location": "废弃的炼金工坊",
+      "participants": [
+        "神秘访客"
+      ],
+      "consequences": [
+        "神秘访客开始研究炼金工坊的秘密",
+        "访客可能会发现炼金工坊的重要线索",
+        "访客可能会触发某种机关，引起连锁反应"
+      ],
+      "importance": "中",
+      "generate_npc": null
+    },
+    {
+      "time": 2,
+      "type": "world_advance",
+      "title": "炼金工坊的秘密",
+      "description": "夜晚的微风轻轻拂过废弃的炼金工坊，访客继续在工坊内探索。突然，他注意到一个隐藏的开关，似乎有人曾试图掩盖它的存在。访客伸手按下开关，一扇隐藏的壁橱缓缓打开，露出了一张古老的羊皮纸和几瓶装有未知液体的瓶子。访客感到一阵激动，这些发现可能会改变一切。",
+      "location": "废弃的炼金工坊",
+      "participants": [
+        "神秘访客"
+      ],
+      "consequences": [
+        "访客获得了关于炼金术的宝贵信息",
+        "访客可能会将这些发现带回将军府",
+        "访客可能会意识到炼金工坊的重要性"
+      ],
+      "importance": "高",
+      "generate_npc": null
+    },
+    {
+      "time": 3,
+      "type": "world_advance",
+      "title": "炼金工坊的警报",
+      "description": "当神秘访客在炼金工坊内探索时，突然间，从炼金工坊的某个角落传来一阵轻微的嗡鸣声，这声音逐渐变得越来越大，直至整个工坊的地面开始轻微震动。访客心中一惊，意识到可能有什么危险即将来临。他迅速检查四周，发现炼金工坊的一扇隐藏壁橱未完全关闭，这可能是声音的来源。访客决定深入调查，看看是否能理解这种异常情况的来源。",
+      "location": "废弃的炼金工坊",
+      "participants": [
+        "神秘访客"
+      ],
+      "consequences": [
+        "访客必须面对未知的威胁",
+        "访客可能会发现某种陷阱或机关",
+        "访客可能会触发某种连锁反应，导致整个炼金工坊的震动加剧"
+      ],
+      "importance": "高",
+      "generate_npc": null
+    },
+    {
+      "time": 4,
+      "type": "world_advance",
+      "title": "炼金工坊的危机",
+      "description": "炼金工坊的地面再次开始震动，这次的声音比之前更为剧烈。神秘访客感到一阵恐慌，他的手心中捏着之前发现的羊皮纸，上面记载着一些关于炼金术的关键信息。他迅速跑向墙上的开关，但已经太晚了。突然，一扇隐藏的门从地下升起，将访客困在了炼金工坊的中心。这时，从远处传来了一阵金属摩擦的声音，似乎有人正在试图打开炼金工坊的出口。\n【系统自动生成NPC：高磊】",
+      "location": "废弃的炼金工坊",
+      "participants": [
+        "神秘访客",
+        "高磊"
+      ],
+      "consequences": [
+        "神秘访客被困在炼金工坊内",
+        "有人试图打开炼金工坊的出口",
+        "炼金工坊的震动加剧，可能会引发未知的危险"
+      ],
+      "importance": "高",
+      "generate_npc": "守卫"
+    },
+    {
+      "time": 5,
+      "type": "world_advance",
+      "title": "炼金工坊的封闭",
+      "description": "炼金工坊的震动持续加剧，神秘访客感到越来越恐惧。突然，他注意到炼金工坊的出口开始在外部被某种力量封闭，铁门正在缓缓关闭。访客心中焦急，他意识到如果出口被完全封闭，他将无法逃离这个充满未知危险的地方。\n访客迅速冲向炼金工坊的内部，寻找可能的解决办法。在炼金工坊的角落，他发现了一个古老的控制台，上面布满了复杂的符文和齿轮。访客开始尝试解开控制台的秘密，希望能找到关闭出口的方法。然而，时间正在一分一秒地流逝，铁门离完全关闭只差几秒钟的距离。",
+      "location": "废弃的炼金工坊",
+      "participants": [
+        "神秘访客"
+      ],
+      "consequences": [
+        "炼金工坊的出口被逐渐封闭",
+        "神秘访客必须解开封印控制台",
+        "如果无法及时解除封印，炼金工坊的出口将被彻底封闭"
+      ],
+      "importance": "高",
+      "generate_npc": null
+    },
+    {
+      "time": 6,
+      "type": "world_advance",
+      "title": "炼金工坊的解封",
+      "description": "炼金工坊的出口最终被完全封闭，神秘访客感到绝望。他再次冲向控制台，决心找到解除封印的方法。此时，从炼金工坊四周传来了轻微的低吼声，这声音让人毛骨悚然。突然，控制台的符文开始闪烁，仿佛在回应访客的尝试。访客注意到一个看似被封存的机关，他深吸一口气，小心翼翼地旋转着机关。顿时，控制台的光芒大亮，铁门缓缓开启，一条光线从门外照射进来，给这个黑暗的空间带来了一丝光明。访客松了一口气，但他知道这只是暂时的解脱，炼金工坊的秘密可能比他想象的更为复杂。",
+      "location": "废弃的炼金工坊",
+      "participants": [
+        "神秘访客"
+      ],
+      "consequences": [
+        "炼金工坊的出口被解除封闭",
+        "神秘访客获得了进入炼金工坊内部的通道",
+        "炼金工坊内部的秘密变得更加扑朔迷离"
+      ],
+      "importance": "高",
+      "generate_npc": null
+    }
+  ],
+  "characters": {
+    "刘敏": {
+      "attributes": {
+        "combat_power": "未知",
+        "inventory": [],
+        "traits": [
+          "勇敢",
+          "机智",
+          "责任感"
+        ]
+      },
+      "location": "未知",
+      "status": "正常",
+      "goals": [
+        "探索王都",
+        "探索炼金工坊"
+      ],
+      "inventory": [],
+      "relations": []
+    },
+    "老人": {
+      "attributes": {
+        "combat_power": "未知",
+        "inventory": [],
+        "traits": [
+          "坚决",
+          "神秘"
+        ]
+      },
+      "location": "未知",
+      "status": "正常",
+      "goals": [
+        "探索王都",
+        "探索炼金工坊"
+      ],
+      "inventory": [],
+      "relations": []
+    },
+    "女子": {
+      "attributes": {
+        "combat_power": "未知",
+        "inventory": [],
+        "traits": [
+          "坚定",
+          "谨慎"
+        ]
+      },
+      "location": "未知",
+      "status": "正常",
+      "goals": [
+        "探索王都",
+        "探索炼金工坊"
+      ],
+      "inventory": [],
+      "relations": []
+    },
+    "马宇": {
+      "attributes": {
+        "combat_power": "未知",
+        "inventory": [],
+        "traits": [
+          "细心",
+          "谨慎"
+        ]
+      },
+      "location": "未知",
+      "status": "正常",
+      "goals": [
+        "探索王都",
+        "探索炼金工坊"
+      ],
+      "inventory": [],
+      "relations": []
+    },
+    "守卫": {
+      "attributes": {
+        "combat_power": "未知",
+        "inventory": [],
+        "traits": [
+          "警惕",
+          "忠诚"
+        ]
+      },
+      "location": "未知",
+      "status": "正常",
+      "goals": [
+        "探索王都",
+        "探索炼金工坊"
+      ],
+      "inventory": [],
+      "relations": []
+    },
+    "黄桂英": {
+      "attributes": {
+        "combat_power": "未知",
+        "inventory": [],
+        "traits": [
+          "善良",
+          "天真"
+        ]
+      },
+      "location": "乡村",
+      "status": "正常",
+      "goals": [
+        "学习新的耕种技术",
+        "今年能有个好收成"
+      ],
+      "inventory": [],
+      "relations": []
+    },
+    "高鑫": {
+      "attributes": {
+        "combat_power": "未知",
+        "inventory": [],
+        "traits": [
+          "谦逊",
+          "胆小"
+        ]
+      },
+      "location": "乡村",
+      "status": "正常",
+      "goals": [
+        "希望能升职加薪",
+        "抓捕所有违法犯罪的人"
+      ],
+      "inventory": [],
+      "relations": []
+    },
+    "刘勇": {
+      "attributes": {
+        "combat_power": "中",
+        "inventory": [],
+        "traits": [
+          "开朗",
+          "勤奋"
+        ]
+      },
+      "location": "炼金工坊",
+      "status": "正常",
+      "goals": [
+        "改善自己的处境",
+        "完成主人的吩咐"
+      ],
+      "inventory": [],
+      "relations": []
+    },
+    "高磊": {
+      "attributes": {
+        "combat_power": "中",
+        "inventory": [],
+        "traits": [
+          "开朗",
+          "懒惰"
+        ]
+      },
+      "location": "废弃的炼金工坊",
+      "status": "正常",
+      "goals": [
+        "维护地方的和平与安全",
+        "希望能升职加薪"
+      ],
+      "inventory": [],
+      "relations": []
+    }
+  },
+  "emotions": {
+    "emotion_states": {
+      "刘敏": {
+        "primary_emotion": "平静",
+        "intensity": 0.5,
+        "secondary_emotion": "平静",
+        "secondary_intensity": 0.3,
+        "last_updated": "2026-01-05T15:32:40.693202",
+        "history": []
+      },
+      "老人": {
+        "primary_emotion": "平静",
+        "intensity": 0.5,
+        "secondary_emotion": "平静",
+        "secondary_intensity": 0.3,
+        "last_updated": "2026-01-05T15:32:40.693202",
+        "history": []
+      },
+      "女子": {
+        "primary_emotion": "平静",
+        "intensity": 0.5,
+        "secondary_emotion": "平静",
+        "secondary_intensity": 0.3,
+        "last_updated": "2026-01-05T15:32:40.693202",
+        "history": []
+      },
+      "马宇": {
+        "primary_emotion": "平静",
+        "intensity": 0.5,
+        "secondary_emotion": "平静",
+        "secondary_intensity": 0.3,
+        "last_updated": "2026-01-05T15:32:40.693202",
+        "history": []
+      },
+      "守卫": {
+        "primary_emotion": "平静",
+        "intensity": 0.5,
+        "secondary_emotion": "平静",
+        "secondary_intensity": 0.3,
+        "last_updated": "2026-01-05T15:32:40.693202",
+        "history": []
+      },
+      "黄桂英": {
+        "primary_emotion": "快乐",
+        "intensity": 0.3,
+        "secondary_emotion": "平静",
+        "secondary_intensity": 0.3,
+        "last_updated": "2026-01-05T15:32:47.415075",
+        "history": [
+          {
+            "emotion": "快乐",
+            "intensity": 0.3,
+            "cause": "初次登场",
+            "timestamp": "2026-01-05T15:32:47.415075"
+          }
+        ]
+      },
+      "高鑫": {
+        "primary_emotion": "快乐",
+        "intensity": 0.3,
+        "secondary_emotion": "平静",
+        "secondary_intensity": 0.3,
+        "last_updated": "2026-01-05T15:34:12.113328",
+        "history": [
+          {
+            "emotion": "快乐",
+            "intensity": 0.3,
+            "cause": "初次登场",
+            "timestamp": "2026-01-05T15:34:12.113328"
+          }
+        ]
+      },
+      "刘勇": {
+        "primary_emotion": "快乐",
+        "intensity": 0.3,
+        "secondary_emotion": "平静",
+        "secondary_intensity": 0.3,
+        "last_updated": "2026-01-05T15:35:53.738066",
+        "history": [
+          {
+            "emotion": "快乐",
+            "intensity": 0.3,
+            "cause": "初次登场",
+            "timestamp": "2026-01-05T15:35:53.738066"
+          }
+        ]
+      },
+      "高磊": {
+        "primary_emotion": "快乐",
+        "intensity": 0.3,
+        "secondary_emotion": "平静",
+        "secondary_intensity": 0.3,
+        "last_updated": "2026-01-05T15:37:15.921900",
+        "history": [
+          {
+            "emotion": "快乐",
+            "intensity": 0.3,
+            "cause": "初次登场",
+            "timestamp": "2026-01-05T15:37:15.921900"
+          }
+        ]
+      }
+    },
+    "triggers_count": 16
+  },
+  "motivations": {
+    "motivations": {
+      "银发少女": [
+        {
+          "id": "20260105153159_3477",
+          "description": "探索这个世界的秘密，寻找回到故乡的方法",
+          "level": "长期",
+          "priority": "重要",
+          "status": "进行中",
+          "deadline": null,
+          "progress": 0.2,
+          "sub_goals": [],
+          "blockers": [],
+          "prerequisites": [],
+          "metadata": {},
+          "created_at": "2026-01-05T15:31:59.038949",
+          "updated_at": "2026-01-05T15:31:59.038949",
+          "completed_at": null,
+          "notes": []
+        },
+        {
+          "id": "20260105153159_1665",
+          "description": "阻止即将到来的灾难，守护这个世界",
+          "level": "长期",
+          "priority": "紧急",
+          "status": "进行中",
+          "deadline": null,
+          "progress": 0.1,
+          "sub_goals": [],
+          "blockers": [],
+          "prerequisites": [],
+          "metadata": {},
+          "created_at": "2026-01-05T15:31:59.038949",
+          "updated_at": "2026-01-05T15:31:59.038949",
+          "completed_at": null,
+          "notes": []
+        },
+        {
+          "id": "20260105153159_2621",
+          "description": "与旅行者建立互信关系",
+          "level": "中期",
+          "priority": "重要",
+          "status": "进行中",
+          "deadline": null,
+          "progress": 0.5,
+          "sub_goals": [],
+          "blockers": [],
+          "prerequisites": [],
+          "metadata": {},
+          "created_at": "2026-01-05T15:31:59.039256",
+          "updated_at": "2026-01-05T15:31:59.039256",
+          "completed_at": null,
+          "notes": []
+        },
+        {
+          "id": "20260105153159_237",
+          "description": "与村长交流，获取更多信息",
+          "level": "短期",
+          "priority": "重要",
+          "status": "进行中",
+          "deadline": null,
+          "progress": 0.6,
+          "sub_goals": [],
+          "blockers": [],
+          "prerequisites": [],
+          "metadata": {},
+          "created_at": "2026-01-05T15:31:59.039256",
+          "updated_at": "2026-01-05T15:31:59.039256",
+          "completed_at": null,
+          "notes": []
+        },
+        {
+          "id": "20260105153159_3477",
+          "description": "探索这个世界的秘密，寻找回到故乡的方法",
+          "level": "长期",
+          "priority": "重要",
+          "status": "进行中",
+          "deadline": null,
+          "progress": 0.2,
+          "sub_goals": [],
+          "blockers": [],
+          "prerequisites": [],
+          "metadata": {},
+          "created_at": "2026-01-05T15:31:59.038949",
+          "updated_at": "2026-01-05T15:31:59.038949",
+          "completed_at": null,
+          "notes": []
+        },
+        {
+          "id": "20260105153159_1665",
+          "description": "阻止即将到来的灾难，守护这个世界",
+          "level": "长期",
+          "priority": "紧急",
+          "status": "进行中",
+          "deadline": null,
+          "progress": 0.1,
+          "sub_goals": [],
+          "blockers": [],
+          "prerequisites": [],
+          "metadata": {},
+          "created_at": "2026-01-05T15:31:59.038949",
+          "updated_at": "2026-01-05T15:31:59.038949",
+          "completed_at": null,
+          "notes": []
+        },
+        {
+          "id": "20260105153159_2621",
+          "description": "与旅行者建立互信关系",
+          "level": "中期",
+          "priority": "重要",
+          "status": "进行中",
+          "deadline": null,
+          "progress": 0.5,
+          "sub_goals": [],
+          "blockers": [],
+          "prerequisites": [],
+          "metadata": {},
+          "created_at": "2026-01-05T15:31:59.039256",
+          "updated_at": "2026-01-05T15:31:59.039256",
+          "completed_at": null,
+          "notes": []
+        },
+        {
+          "id": "20260105153159_237",
+          "description": "与村长交流，获取更多信息",
+          "level": "短期",
+          "priority": "重要",
+          "status": "进行中",
+          "deadline": null,
+          "progress": 0.6,
+          "sub_goals": [],
+          "blockers": [],
+          "prerequisites": [],
+          "metadata": {},
+          "created_at": "2026-01-05T15:31:59.039256",
+          "updated_at": "2026-01-05T15:31:59.039256",
+          "completed_at": null,
+          "notes": []
+        }
+      ],
+      "旅行者": [
+        {
+          "id": "20260105153159_8886",
+          "description": "揭开这个世界的真相",
+          "level": "长期",
+          "priority": "一般",
+          "status": "进行中",
+          "deadline": null,
+          "progress": 0.15,
+          "sub_goals": [],
+          "blockers": [],
+          "prerequisites": [],
+          "metadata": {},
+          "created_at": "2026-01-05T15:31:59.039256",
+          "updated_at": "2026-01-05T15:31:59.039256",
+          "completed_at": null,
+          "notes": []
+        },
+        {
+          "id": "20260105153159_2192",
+          "description": "提升自己的能力，保护同伴",
+          "level": "中期",
+          "priority": "重要",
+          "status": "进行中",
+          "deadline": null,
+          "progress": 0.4,
+          "sub_goals": [],
+          "blockers": [],
+          "prerequisites": [],
+          "metadata": {},
+          "created_at": "2026-01-05T15:31:59.039256",
+          "updated_at": "2026-01-05T15:31:59.039256",
+          "completed_at": null,
+          "notes": []
+        },
+        {
+          "id": "20260105153159_1968",
+          "description": "与银发少女建立友好关系",
+          "level": "短期",
+          "priority": "重要",
+          "status": "进行中",
+          "deadline": null,
+          "progress": 0.7,
+          "sub_goals": [],
+          "blockers": [],
+          "prerequisites": [],
+          "metadata": {},
+          "created_at": "2026-01-05T15:31:59.039256",
+          "updated_at": "2026-01-05T15:31:59.039256",
+          "completed_at": null,
+          "notes": []
+        },
+        {
+          "id": "20260105153159_8886",
+          "description": "揭开这个世界的真相",
+          "level": "长期",
+          "priority": "一般",
+          "status": "进行中",
+          "deadline": null,
+          "progress": 0.15,
+          "sub_goals": [],
+          "blockers": [],
+          "prerequisites": [],
+          "metadata": {},
+          "created_at": "2026-01-05T15:31:59.039256",
+          "updated_at": "2026-01-05T15:31:59.039256",
+          "completed_at": null,
+          "notes": []
+        },
+        {
+          "id": "20260105153159_2192",
+          "description": "提升自己的能力，保护同伴",
+          "level": "中期",
+          "priority": "重要",
+          "status": "进行中",
+          "deadline": null,
+          "progress": 0.4,
+          "sub_goals": [],
+          "blockers": [],
+          "prerequisites": [],
+          "metadata": {},
+          "created_at": "2026-01-05T15:31:59.039256",
+          "updated_at": "2026-01-05T15:31:59.039256",
+          "completed_at": null,
+          "notes": []
+        },
+        {
+          "id": "20260105153159_1968",
+          "description": "与银发少女建立友好关系",
+          "level": "短期",
+          "priority": "重要",
+          "status": "进行中",
+          "deadline": null,
+          "progress": 0.7,
+          "sub_goals": [],
+          "blockers": [],
+          "prerequisites": [],
+          "metadata": {},
+          "created_at": "2026-01-05T15:31:59.039256",
+          "updated_at": "2026-01-05T15:31:59.039256",
+          "completed_at": null,
+          "notes": []
+        }
+      ],
+      "村长": [
+        {
+          "id": "20260105153159_9286",
+          "description": "守护村子的安宁，保护村民",
+          "level": "长期",
+          "priority": "重要",
+          "status": "进行中",
+          "deadline": null,
+          "progress": 0.6,
+          "sub_goals": [],
+          "blockers": [],
+          "prerequisites": [],
+          "metadata": {},
+          "created_at": "2026-01-05T15:31:59.039256",
+          "updated_at": "2026-01-05T15:31:59.039256",
+          "completed_at": null,
+          "notes": []
+        },
+        {
+          "id": "20260105153159_2801",
+          "description": "帮助银发少女和旅行者",
+          "level": "中期",
+          "priority": "一般",
+          "status": "进行中",
+          "deadline": null,
+          "progress": 0.5,
+          "sub_goals": [],
+          "blockers": [],
+          "prerequisites": [],
+          "metadata": {},
+          "created_at": "2026-01-05T15:31:59.040894",
+          "updated_at": "2026-01-05T15:31:59.040894",
+          "completed_at": null,
+          "notes": []
+        },
+        {
+          "id": "20260105153159_4531",
+          "description": "处理村子的日常事务",
+          "level": "短期",
+          "priority": "一般",
+          "status": "进行中",
+          "deadline": null,
+          "progress": 0.8,
+          "sub_goals": [],
+          "blockers": [],
+          "prerequisites": [],
+          "metadata": {},
+          "created_at": "2026-01-05T15:31:59.040894",
+          "updated_at": "2026-01-05T15:31:59.040894",
+          "completed_at": null,
+          "notes": []
+        },
+        {
+          "id": "20260105153159_9286",
+          "description": "守护村子的安宁，保护村民",
+          "level": "长期",
+          "priority": "重要",
+          "status": "进行中",
+          "deadline": null,
+          "progress": 0.6,
+          "sub_goals": [],
+          "blockers": [],
+          "prerequisites": [],
+          "metadata": {},
+          "created_at": "2026-01-05T15:31:59.039256",
+          "updated_at": "2026-01-05T15:31:59.039256",
+          "completed_at": null,
+          "notes": []
+        },
+        {
+          "id": "20260105153159_2801",
+          "description": "帮助银发少女和旅行者",
+          "level": "中期",
+          "priority": "一般",
+          "status": "进行中",
+          "deadline": null,
+          "progress": 0.5,
+          "sub_goals": [],
+          "blockers": [],
+          "prerequisites": [],
+          "metadata": {},
+          "created_at": "2026-01-05T15:31:59.040894",
+          "updated_at": "2026-01-05T15:31:59.040894",
+          "completed_at": null,
+          "notes": []
+        },
+        {
+          "id": "20260105153159_4531",
+          "description": "处理村子的日常事务",
+          "level": "短期",
+          "priority": "一般",
+          "status": "进行中",
+          "deadline": null,
+          "progress": 0.8,
+          "sub_goals": [],
+          "blockers": [],
+          "prerequisites": [],
+          "metadata": {},
+          "created_at": "2026-01-05T15:31:59.040894",
+          "updated_at": "2026-01-05T15:31:59.040894",
+          "completed_at": null,
+          "notes": []
+        }
+      ],
+      "商人": [
+        {
+          "id": "20260105153159_643",
+          "description": "扩大生意，建立贸易网络",
+          "level": "长期",
+          "priority": "一般",
+          "status": "进行中",
+          "deadline": null,
+          "progress": 0.3,
+          "sub_goals": [],
+          "blockers": [],
+          "prerequisites": [],
+          "metadata": {},
+          "created_at": "2026-01-05T15:31:59.040894",
+          "updated_at": "2026-01-05T15:31:59.040894",
+          "completed_at": null,
+          "notes": []
+        },
+        {
+          "id": "20260105153159_8090",
+          "description": "向旅行者推销商品",
+          "level": "短期",
+          "priority": "重要",
+          "status": "待处理",
+          "deadline": null,
+          "progress": 0.0,
+          "sub_goals": [],
+          "blockers": [],
+          "prerequisites": [],
+          "metadata": {},
+          "created_at": "2026-01-05T15:31:59.040894",
+          "updated_at": "2026-01-05T15:31:59.040894",
+          "completed_at": null,
+          "notes": []
+        },
+        {
+          "id": "20260105153159_643",
+          "description": "扩大生意，建立贸易网络",
+          "level": "长期",
+          "priority": "一般",
+          "status": "进行中",
+          "deadline": null,
+          "progress": 0.3,
+          "sub_goals": [],
+          "blockers": [],
+          "prerequisites": [],
+          "metadata": {},
+          "created_at": "2026-01-05T15:31:59.040894",
+          "updated_at": "2026-01-05T15:31:59.040894",
+          "completed_at": null,
+          "notes": []
+        },
+        {
+          "id": "20260105153159_8090",
+          "description": "向旅行者推销商品",
+          "level": "短期",
+          "priority": "重要",
+          "status": "待处理",
+          "deadline": null,
+          "progress": 0.0,
+          "sub_goals": [],
+          "blockers": [],
+          "prerequisites": [],
+          "metadata": {},
+          "created_at": "2026-01-05T15:31:59.040894",
+          "updated_at": "2026-01-05T15:31:59.040894",
+          "completed_at": null,
+          "notes": []
+        }
+      ],
+      "刘敏": [],
+      "老人": [],
+      "女子": [],
+      "马宇": [],
+      "守卫": [],
+      "黄桂英": [
+        {
+          "id": "20260105153247_4157",
+          "description": "学习新的耕种技术",
+          "level": "中期",
+          "priority": "一般",
+          "status": "进行中",
+          "deadline": null,
+          "progress": 0.1,
+          "sub_goals": [],
+          "blockers": [],
+          "prerequisites": [],
+          "metadata": {},
+          "created_at": "2026-01-05T15:32:47.415075",
+          "updated_at": "2026-01-05T15:32:47.415075",
+          "completed_at": null,
+          "notes": []
+        },
+        {
+          "id": "20260105153247_7802",
+          "description": "今年能有个好收成",
+          "level": "中期",
+          "priority": "一般",
+          "status": "进行中",
+          "deadline": null,
+          "progress": 0.1,
+          "sub_goals": [],
+          "blockers": [],
+          "prerequisites": [],
+          "metadata": {},
+          "created_at": "2026-01-05T15:32:47.415075",
+          "updated_at": "2026-01-05T15:32:47.415075",
+          "completed_at": null,
+          "notes": []
+        },
+        {
+          "id": "20260105153247_4157",
+          "description": "学习新的耕种技术",
+          "level": "中期",
+          "priority": "一般",
+          "status": "进行中",
+          "deadline": null,
+          "progress": 0.1,
+          "sub_goals": [],
+          "blockers": [],
+          "prerequisites": [],
+          "metadata": {},
+          "created_at": "2026-01-05T15:32:47.415075",
+          "updated_at": "2026-01-05T15:32:47.415075",
+          "completed_at": null,
+          "notes": []
+        },
+        {
+          "id": "20260105153247_7802",
+          "description": "今年能有个好收成",
+          "level": "中期",
+          "priority": "一般",
+          "status": "进行中",
+          "deadline": null,
+          "progress": 0.1,
+          "sub_goals": [],
+          "blockers": [],
+          "prerequisites": [],
+          "metadata": {},
+          "created_at": "2026-01-05T15:32:47.415075",
+          "updated_at": "2026-01-05T15:32:47.415075",
+          "completed_at": null,
+          "notes": []
+        }
+      ],
+      "高鑫": [
+        {
+          "id": "20260105153412_1768",
+          "description": "希望能升职加薪",
+          "level": "中期",
+          "priority": "一般",
+          "status": "进行中",
+          "deadline": null,
+          "progress": 0.1,
+          "sub_goals": [],
+          "blockers": [],
+          "prerequisites": [],
+          "metadata": {},
+          "created_at": "2026-01-05T15:34:12.113328",
+          "updated_at": "2026-01-05T15:34:12.113328",
+          "completed_at": null,
+          "notes": []
+        },
+        {
+          "id": "20260105153412_8621",
+          "description": "抓捕所有违法犯罪的人",
+          "level": "中期",
+          "priority": "一般",
+          "status": "进行中",
+          "deadline": null,
+          "progress": 0.1,
+          "sub_goals": [],
+          "blockers": [],
+          "prerequisites": [],
+          "metadata": {},
+          "created_at": "2026-01-05T15:34:12.113328",
+          "updated_at": "2026-01-05T15:34:12.113328",
+          "completed_at": null,
+          "notes": []
+        },
+        {
+          "id": "20260105153412_1768",
+          "description": "希望能升职加薪",
+          "level": "中期",
+          "priority": "一般",
+          "status": "进行中",
+          "deadline": null,
+          "progress": 0.1,
+          "sub_goals": [],
+          "blockers": [],
+          "prerequisites": [],
+          "metadata": {},
+          "created_at": "2026-01-05T15:34:12.113328",
+          "updated_at": "2026-01-05T15:34:12.113328",
+          "completed_at": null,
+          "notes": []
+        },
+        {
+          "id": "20260105153412_8621",
+          "description": "抓捕所有违法犯罪的人",
+          "level": "中期",
+          "priority": "一般",
+          "status": "进行中",
+          "deadline": null,
+          "progress": 0.1,
+          "sub_goals": [],
+          "blockers": [],
+          "prerequisites": [],
+          "metadata": {},
+          "created_at": "2026-01-05T15:34:12.113328",
+          "updated_at": "2026-01-05T15:34:12.113328",
+          "completed_at": null,
+          "notes": []
+        }
+      ],
+      "刘勇": [
+        {
+          "id": "20260105153553_9878",
+          "description": "改善自己的处境",
+          "level": "中期",
+          "priority": "一般",
+          "status": "进行中",
+          "deadline": null,
+          "progress": 0.1,
+          "sub_goals": [],
+          "blockers": [],
+          "prerequisites": [],
+          "metadata": {},
+          "created_at": "2026-01-05T15:35:53.738066",
+          "updated_at": "2026-01-05T15:35:53.738066",
+          "completed_at": null,
+          "notes": []
+        },
+        {
+          "id": "20260105153553_6393",
+          "description": "完成主人的吩咐",
+          "level": "中期",
+          "priority": "一般",
+          "status": "进行中",
+          "deadline": null,
+          "progress": 0.1,
+          "sub_goals": [],
+          "blockers": [],
+          "prerequisites": [],
+          "metadata": {},
+          "created_at": "2026-01-05T15:35:53.738066",
+          "updated_at": "2026-01-05T15:35:53.738066",
+          "completed_at": null,
+          "notes": []
+        }
+      ],
+      "高磊": [
+        {
+          "id": "20260105153715_9400",
+          "description": "维护地方的和平与安全",
+          "level": "中期",
+          "priority": "一般",
+          "status": "进行中",
+          "deadline": null,
+          "progress": 0.1,
+          "sub_goals": [],
+          "blockers": [],
+          "prerequisites": [],
+          "metadata": {},
+          "created_at": "2026-01-05T15:37:15.921900",
+          "updated_at": "2026-01-05T15:37:15.921900",
+          "completed_at": null,
+          "notes": []
+        },
+        {
+          "id": "20260105153715_1768",
+          "description": "希望能升职加薪",
+          "level": "中期",
+          "priority": "一般",
+          "status": "进行中",
+          "deadline": null,
+          "progress": 0.1,
+          "sub_goals": [],
+          "blockers": [],
+          "prerequisites": [],
+          "metadata": {},
+          "created_at": "2026-01-05T15:37:15.921900",
+          "updated_at": "2026-01-05T15:37:15.921900",
+          "completed_at": null,
+          "notes": []
+        }
+      ]
+    },
+    "relationships": {
+      "银发少女": {
+        "dependencies": {},
+        "blocks": {}
+      },
+      "旅行者": {
+        "dependencies": {},
+        "blocks": {}
+      },
+      "村长": {
+        "dependencies": {},
+        "blocks": {}
+      },
+      "商人": {
+        "dependencies": {},
+        "blocks": {}
+      },
+      "刘敏": {
+        "dependencies": {},
+        "blocks": {}
+      },
+      "老人": {
+        "dependencies": {},
+        "blocks": {}
+      },
+      "女子": {
+        "dependencies": {},
+        "blocks": {}
+      },
+      "马宇": {
+        "dependencies": {},
+        "blocks": {}
+      },
+      "守卫": {
+        "dependencies": {},
+        "blocks": {}
+      },
+      "黄桂英": {
+        "dependencies": {},
+        "blocks": {}
+      },
+      "高鑫": {
+        "dependencies": {},
+        "blocks": {}
+      },
+      "刘勇": {
+        "dependencies": {},
+        "blocks": {}
+      },
+      "高磊": {
+        "dependencies": {},
+        "blocks": {}
+      }
+    }
+  }
+}

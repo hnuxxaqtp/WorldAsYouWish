@@ -1,0 +1,120 @@
+{
+  "chapter_id": 1,
+  "title": "完整章节",
+  "events": [
+    {
+      "who": "昴",
+      "action": "确认",
+      "target": "能走能跑",
+      "goal": "活下去",
+      "polarity": 1,
+      "time": null,
+      "location": null,
+      "precond": null,
+      "effect": null
+    },
+    {
+      "who": "混混",
+      "action": "威胁",
+      "target": "昴",
+      "goal": "抢劫",
+      "polarity": -1,
+      "time": null,
+      "location": "巷子",
+      "precond": null,
+      "effect": null
+    },
+    {
+      "who": "银发少女",
+      "action": "救",
+      "target": "昴",
+      "goal": "保护",
+      "polarity": 1,
+      "time": null,
+      "location": "巷子",
+      "precond": null,
+      "effect": "混混逃跑"
+    },
+    {
+      "who": "昴",
+      "action": "承诺",
+      "target": "银发少女",
+      "goal": "找回徽章",
+      "polarity": 1,
+      "time": null,
+      "location": null,
+      "precond": null,
+      "effect": null
+    },
+    {
+      "who": "昴",
+      "action": "询问",
+      "target": "居民",
+      "goal": "寻找徽章线索",
+      "polarity": 1,
+      "time": null,
+      "location": "贫民窟",
+      "precond": null,
+      "effect": null
+    },
+    {
+      "who": "猎肠者",
+      "action": "攻击",
+      "target": "昴和银发少女",
+      "goal": "杀死",
+      "polarity": -1,
+      "time": null,
+      "location": "窄巷",
+      "precond": null,
+      "effect": null
+    },
+    {
+      "who": "银发少女",
+      "action": "战斗",
+      "target": "猎肠者",
+      "goal": "自卫",
+      "polarity": 1,
+      "time": null,
+      "location": "窄巷",
+      "precond": null,
+      "effect": null
+    }
+  ],
+  "relations": [
+    {
+      "a": "昴",
+      "b": "银发少女",
+      "type": "同伴",
+      "score": 0.8
+    },
+    {
+      "a": "昴",
+      "b": "混混",
+      "type": "对立",
+      "score": 0.6
+    },
+    {
+      "a": "银发少女",
+      "b": "猎肠者",
+      "type": "对立",
+      "score": 0.9
+    }
+  ],
+  "goals": {
+    "昴": [
+      "活下去",
+      "找回徽章"
+    ],
+    "银发少女": [
+      "找回徽章"
+    ]
+  },
+  "objects": {
+    "徽章": "重要，银发少女寻找",
+    "结局": "BE"
+  },
+  "meta": {
+    "worldline_id": "canon",
+    "model": "gpt-4o"
+  }
+}
